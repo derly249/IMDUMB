@@ -7,6 +7,7 @@
 
 import Foundation
 
+// SOLID: SRP — solo obtiene datos remotos
 final class RemoteMovieDataStore: MovieDataStoreProtocol {
 
     func fetchMovies(category: String, completion: @escaping (Result<[Movie], Error>) -> Void) {

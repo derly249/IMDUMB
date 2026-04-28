@@ -7,6 +7,9 @@
 
 import Alamofire
 
+// SOLID: Single Responsibility Principle (SRP)
+// NetworkManager solo maneja peticiones HTTP
+
 final class NetworkManager {
     static let shared = NetworkManager()
     private init() {}

@@ -7,6 +7,8 @@
 
 import Foundation
 
+// SOLID: DIP — el repository depende del protocolo, no del datastore concreto
+
 final class MovieRepository {
 
     private let dataStore: MovieDataStoreProtocol

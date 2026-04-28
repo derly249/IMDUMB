@@ -7,6 +7,9 @@
 
 import Foundation
 
+// SOLID: Interface Segregation Principle (ISP)
+// Cada pantalla implementa solo lo que necesita
+
 protocol ViewProtocol: AnyObject {
     func showLoading()
     func hideLoading()
