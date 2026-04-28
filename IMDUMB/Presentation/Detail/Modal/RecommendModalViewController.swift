@@ -79,10 +79,15 @@ class RecommendModalViewController: UIViewController {
                 showAlert(message: "Por favor escribe un comentario")
                 return
             }
-            dismiss(animated: true) {
-                // Toast/Alert de éxito desde el padre
-            }
-            showSuccessAlert()
+            let alert = UIAlertController(
+                   title: "¡Éxito!",
+                   message: "Tu recomendación fue enviada",
+                   preferredStyle: .alert
+               )
+               alert.addAction(UIAlertAction(title: "OK", style: .default) { [weak self] _ in
+                   self?.dismiss(animated: true) 
+               })
+               present(alert, animated: true)
         }
 
         private func showAlert(message: String) {
