@@ -84,10 +84,9 @@
                                     </collectionViewFlowLayout>
                                 </collectionView>
                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SqC-Mo-5Dt">
-                                    <rect key="frame" x="159" y="414" width="75" height="35"/>
+                                    <rect key="frame" x="0.0" y="414" width="393" height="35"/>
                                     <constraints>
                                         <constraint firstAttribute="height" constant="35" id="04G-g9-JiS"/>
-                                        <constraint firstAttribute="width" constant="75" id="NSF-rJ-Ba1"/>
                                     </constraints>
                                     <state key="normal" title="Button"/>
                                     <buttonConfiguration key="configuration" style="plain" title="Button"/>
@@ -108,6 +107,7 @@
                             <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                             <constraints>
                                 <constraint firstItem="SqC-Mo-5Dt" firstAttribute="centerX" secondItem="XZm-a2-Tvp" secondAttribute="centerX" id="3E2-xj-gay"/>
+                                <constraint firstItem="SqC-Mo-5Dt" firstAttribute="leading" secondItem="XZm-a2-Tvp" secondAttribute="leading" id="8XA-Wl-W3c"/>
                                 <constraint firstAttribute="trailing" secondItem="lNg-qC-lcM" secondAttribute="trailing" id="Bf3-Dg-e9e"/>
                                 <constraint firstAttribute="trailing" secondItem="G7Z-j3-Ha9" secondAttribute="trailing" id="GGE-2f-ncw"/>
                                 <constraint firstItem="aMi-OJ-niX" firstAttribute="leading" secondItem="XZm-a2-Tvp" secondAttribute="leading" id="GmB-5a-Qfm"/>
@@ -121,6 +121,7 @@
                                 <constraint firstItem="lNg-qC-lcM" firstAttribute="top" secondItem="tBi-3Z-3cz" secondAttribute="bottom" id="cSk-vc-uti"/>
                                 <constraint firstItem="G7Z-j3-Ha9" firstAttribute="top" secondItem="XZm-a2-Tvp" secondAttribute="top" constant="6" id="fvD-rU-bGd"/>
                                 <constraint firstItem="RPR-hK-gci" firstAttribute="top" secondItem="G7Z-j3-Ha9" secondAttribute="bottom" id="gky-au-iE4"/>
+                                <constraint firstAttribute="trailing" secondItem="SqC-Mo-5Dt" secondAttribute="trailing" id="hOp-39-pLn"/>
                                 <constraint firstAttribute="trailing" secondItem="tBi-3Z-3cz" secondAttribute="trailing" id="kRH-r8-4UK"/>
                                 <constraint firstItem="RPR-hK-gci" firstAttribute="leading" secondItem="XZm-a2-Tvp" secondAttribute="leading" id="sC8-GM-d8h"/>
                                 <constraint firstItem="aMi-OJ-niX" firstAttribute="top" secondItem="wby-yu-Yfh" secondAttribute="bottom" id="t4h-7M-K71"/>
