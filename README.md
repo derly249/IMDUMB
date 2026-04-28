@@ -17,7 +17,7 @@ App iOS que muestra categorías de películas con detalle de cada una.
 
 ---
 
-## Cómo correr
+## Cómo Ejecutar
 
 ```bash
 git clone https://github.com/TU_USUARIO/IMDUMB.git
@@ -26,9 +26,9 @@ open IMDUMB.xcodeproj
 ```
 
 1. Abre `IMDUMB.xcodeproj` en Xcode
-2. El `GoogleService-Info.plist` ya está incluido ✅
-3. Selecciona un simulador iOS
-4. `⌘R` para compilar y correr
+3. El `GoogleService-Info.plist` ya está incluido ✅
+4. Selecciona un simulador iOS
+5. `⌘R` para compilar y correr
 
 ---
 
