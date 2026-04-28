@@ -1,11 +1,15 @@
-<img width="1206" height="2622" alt="Simulator Screenshot - iPhone 17 Pro - 2026-04-28 at 16 58 09" src="https://github.com/user-attachments/assets/de7a9e3d-1180-4cbe-8af6-9b40dce0c424" />
-<img width="1206" height="2622" alt="Simulator Screenshot - iPhone 17 Pro - 2026-04-28 at 16 59 57" src="https://github.com/user-attachments/assets/25601855-8d6e-4fb0-a320-00316b36b953" />
-<img width="1206" height="2622" alt="Simulator Screenshot - iPhone 17 Pro - 2026-04-28 at 17 00 10" src="https://github.com/user-attachments/assets/9bf2780c-fefb-49b6-a65f-611e3bab0022" />
-<img width="1206" height="2622" alt="Simulator Screenshot - iPhone 17 Pro - 2026-04-28 at 17 04 15" src="https://github.com/user-attachments/assets/9d76df9b-69c1-4efd-b90e-8945b3999e76" />
+
 # IMDUMB - app info movie and recomedations
 
 App iOS que muestra categorías de películas con detalle de cada una.
+## Screenshots
 
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/de7a9e3d-1180-4cbe-8af6-9b40dce0c424" width="200"/>
+  <img src="https://github.com/user-attachments/assets/25601855-8d6e-4fb0-a320-00316b36b953" width="200"/>
+  <img src="https://github.com/user-attachments/assets/9bf2780c-fefb-49b6-a65f-611e3bab0022" width="200"/>
+  <img src="https://github.com/user-attachments/assets/9d76df9b-69c1-4efd-b90e-8945b3999e76" width="200"/>
+</p>
 ---
 
 ## Tech Stack
